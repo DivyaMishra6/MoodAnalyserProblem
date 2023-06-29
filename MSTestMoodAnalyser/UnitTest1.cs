@@ -35,33 +35,68 @@ namespace MSTestMoodAnalyser
             Assert.AreEqual(expected, actual);
         }
 
-        //[TestMethod]
-        //public void Refactor1()                        //Refactor-Testcase1
-        //{
-        //    string input = "I am in Sad Mood";
-        //    string expected = "SAD";
 
 
-        //    MoodAnalyser moodAnalyser = new MoodAnalyser();
+        [TestMethod]
+        public void TestMethodForCustomizedNullException()
 
-        //    string actual = moodAnalyser.msg;
+        {
 
-        //    Assert.AreEqual(expected, actual);
-        //}
+            try
+            {
+                string input = null;
+                var analyze = new Mood(input);
+            }
+            catch (NullReferenceException Exception)
+            {
+                Assert.AreEqual("Mood can not be Null.", Exception.Message);
+            }
+        }
+        [TestMethod]
+        public void TestMethodForCustomizedEmptyException()
 
-        //[TestMethod]
-        //public void Refactor2()                            //Refactor-TestCase2
-        //{
-        //    string input = "I am in Happy Mood";
-        //    string expected = "SAD";
+        {
+            string expected = "Mood should not be empty";
+            try
+            {
+
+                Mood moodAnalyser = new Mood(string.Empty);
+                moodAnalyser.AnalyzeMood();
+            }
+            catch (CustomException ex)
+            {
+                Assert.AreEqual(expected, ex.Message);
+            }
+
+        }
+
+            //[TestMethod]
+            //public void Refactor1()                        //Refactor-Testcase1
+            //{
+            //    string input = "I am in Sad Mood";
+            //    string expected = "SAD";
 
 
-        //    MoodAnalyser moodAnalyser = new MoodAnalyser();
+            //    MoodAnalyser moodAnalyser = new MoodAnalyser();
 
-        //    string actual = moodAnalyser.msg;
+            //    string actual = moodAnalyser.msg;
 
-        //    Assert.AreEqual(expected, actual);
-        //}
+            //    Assert.AreEqual(expected, actual);
+            //}
+
+            //[TestMethod]
+            //public void Refactor2()                            //Refactor-TestCase2
+            //{
+            //    string input = "I am in Happy Mood";
+            //    string expected = "SAD";
+
+
+            //    MoodAnalyser moodAnalyser = new MoodAnalyser();
+
+            //    string actual = moodAnalyser.msg;
+
+            //    Assert.AreEqual(expected, actual);
+            //}
 
 
 
