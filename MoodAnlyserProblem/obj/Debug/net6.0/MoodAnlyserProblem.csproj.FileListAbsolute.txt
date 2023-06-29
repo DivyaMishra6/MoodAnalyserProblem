@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\bin\Debug\net6.0\MoodAnlyserProblem.exe
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\bin\Debug\net6.0\MoodAnlyserProblem.deps.json
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\bin\Debug\net6.0\MoodAnlyserProblem.runtimeconfig.json
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\bin\Debug\net6.0\MoodAnlyserProblem.dll
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\bin\Debug\net6.0\MoodAnlyserProblem.pdb
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\MoodAnlyserProblem.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\MoodAnlyserProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\MoodAnlyserProblem.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\MoodAnlyserProblem.AssemblyInfo.cs
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\MoodAnlyserProblem.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\MoodAnlyserProblem.dll
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\refint\MoodAnlyserProblem.dll
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\MoodAnlyserProblem.pdb
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\MoodAnlyserProblem.genruntimeconfig.cache
+C:\Users\HP\source\repos\A287\MoodAnlyserProblem\MoodAnlyserProblem\obj\Debug\net6.0\ref\MoodAnlyserProblem.dll
