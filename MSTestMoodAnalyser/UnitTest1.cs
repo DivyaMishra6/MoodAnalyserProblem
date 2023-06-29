@@ -12,9 +12,10 @@ namespace MSTestMoodAnalyser
             string expected = "SAD";
 
 
-            Mood moodAnalyzer = new Mood();
+            Mood moodAnalyzer = new Mood("I am in Sad Mood");
 
-            string actual = moodAnalyzer.analyseMood(input);
+            string actual = moodAnalyzer.AnalyzeMood();
+
 
             Assert.AreEqual(expected, actual);
         }
@@ -27,40 +28,40 @@ namespace MSTestMoodAnalyser
             string expected = "HAPPY";
 
 
-            Mood moodAnalyzer = new Mood();
+            Mood moodAnalyzer = new Mood("I am in happy Mood");
 
-            string actual = moodAnalyzer.analyseMood(input);
-
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Refactor1()                        //Refactor-Testcase1
-        {
-            string input = "I am in Sad Mood";
-            string expected = "SAD";
-
-
-            MoodAnalyser moodAnalyser = new MoodAnalyser();
-
-            string actual = moodAnalyser.msg;
+            string actual = moodAnalyzer.AnalyzeMood();
 
             Assert.AreEqual(expected, actual);
         }
 
-        [TestMethod]
-        public void Refactor2()                            //Refactor-TestCase2
-        {
-            string input = "I am in Happy Mood";
-            string expected = "SAD";
+        //[TestMethod]
+        //public void Refactor1()                        //Refactor-Testcase1
+        //{
+        //    string input = "I am in Sad Mood";
+        //    string expected = "SAD";
 
 
-            MoodAnalyser moodAnalyser = new MoodAnalyser();
+        //    MoodAnalyser moodAnalyser = new MoodAnalyser();
 
-            string actual = moodAnalyser.msg;
+        //    string actual = moodAnalyser.msg;
 
-            Assert.AreEqual(expected, actual);
-        }
+        //    Assert.AreEqual(expected, actual);
+        //}
+
+        //[TestMethod]
+        //public void Refactor2()                            //Refactor-TestCase2
+        //{
+        //    string input = "I am in Happy Mood";
+        //    string expected = "SAD";
+
+
+        //    MoodAnalyser moodAnalyser = new MoodAnalyser();
+
+        //    string actual = moodAnalyser.msg;
+
+        //    Assert.AreEqual(expected, actual);
+        //}
 
 
 
